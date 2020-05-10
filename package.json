@@ -1,0 +1,18 @@
+{
+  "name": "quote-scraper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Arsam Sarabi <arsamsarabi@me.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.18",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
