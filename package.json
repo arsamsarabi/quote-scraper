@@ -5,14 +5,21 @@
   "author": "Arsam Sarabi <arsamsarabi@me.com>",
   "license": "MIT",
   "scripts": {
-    "dev": "ts-node-dev src/index.ts"
+    "dev": "ts-node-dev --respawn src/index.ts"
   },
   "devDependencies": {
     "@types/cheerio": "^0.22.18",
+    "@types/puppeteer": "^2.0.1",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
+    "eslint": "^7.0.0",
+    "prettier": "^2.0.5",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.8.3"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3"
+    "cheerio": "^1.0.0-rc.3",
+    "puppeteer": "^3.0.4",
+    "puppeteer-core": "^3.0.4"
   }
 }
